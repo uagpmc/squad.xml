@@ -37,7 +37,8 @@ jobs:
         run: |
           mkdir public && \
           mv squad.xml public/squad.xml && \
-          mv logo.paa public/logo.paa
+          mv logo.paa public/logo.paa && \
+          mv index.html public/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
